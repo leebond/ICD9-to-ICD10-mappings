@@ -7,13 +7,12 @@ Created on Mon Dec 16 09:27:49 2019
 This piece of work uses the General Equivalence Mappings file by cms.gov
 to convert ICD 9-CM codes to ICD 10-CM codes.
 
-It also stitches the ICD 10-CM codes with the ICD 10-CM descriptions using another 
-mapping file provided by cms.gov
+It also stitches the ICD 10-CM codes with the ICD 10-CM descriptions using a mapping file provided by cms.gov
 
 Additional
 There is also an option to stitch ICD 10-CM hierarchy codes to the ICD 10-CM codes.
-The hierarchy data are derived separately by another respository where they had been webscraped from
-icd10data.com
+The hierarchy data are derived separately by webscraping from icd10data.com. In another respository of mine, you may
+find this webscraping python script.
 
 There is also an option to stitch ICD 10-CM CCSR categories with the ICD 10-CM codes.
 The CCSR mappings are borrowed from hcup-as.ahrq.gov
